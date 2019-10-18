@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bt_bj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="补间动画"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/bt_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="帧动画"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/bt_sx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="属性动画"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>
